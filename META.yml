@@ -1,0 +1,41 @@
+---
+name: Task-Padre-Plugin-Deps
+version: 0.01
+author:
+  - 'Gabor Szabo <szabgab@gmail.com>'
+abstract: prereqs of Padre::Plugins
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Acme::PlayCode: 0
+  CPAN: 0
+  Crypt::Blowfish: 0
+  Crypt::CBC: 0
+  ExtUtils::InferConfig: 0.02
+  ExtUtils::InstallPAR: 0.01
+  LWP::Simple: 0
+  Module::Build: 0
+  PAR::Packer: 0
+  Padre: 0.16
+  Path::Class::File: 0
+  Perl::Critic: 0
+  Perl::Tidy: 0
+  Test::More: 0
+  Test::NeedsDisplay: 1.05
+  WebService::Validator::CSS::W3C: 0
+  WebService::Validator::HTML::W3C: 0
+  Wx::Perl::Dialog: 0.02
+  XML::XPath: 0
+  perl: 5.008
+  pip: 0.13
+build_requires:
+  Test::More: 0
+provides:
+  Task::Padre::Plugin::Deps:
+    file: lib/Task/Padre/Plugin/Deps.pm
+    version: 0.01
+generated_by: Module::Build version 0.280801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
