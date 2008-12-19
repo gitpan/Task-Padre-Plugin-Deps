@@ -1,6 +1,6 @@
 ---
 name: Task-Padre-Plugin-Deps
-version: 0.01
+version: 0.03
 author:
   - 'Gabor Szabo <szabgab@gmail.com>'
 abstract: prereqs of Padre::Plugins
@@ -42,7 +42,7 @@ build_requires:
 provides:
   Task::Padre::Plugin::Deps:
     file: lib/Task/Padre/Plugin/Deps.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.3
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
