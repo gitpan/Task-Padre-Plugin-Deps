@@ -1,6 +1,6 @@
 ---
 name: Task-Padre-Plugin-Deps
-version: 0.03
+version: 0.04
 author:
   - 'Gabor Szabo <szabgab@gmail.com>'
 abstract: prereqs of Padre::Plugins
@@ -27,9 +27,12 @@ requires:
   Padre: 0.16
   Perl::Critic: 0
   Perl::Tidy: 0
+  Readonly: 1.03
   Syntax::Highlight::Engine::Kate: 0
+  Syntax::Highlight::Perl6: 0.0295
   Test::More: 0
   Test::NeedsDisplay: 1.05
+  URI: 1.37
   WebService::Validator::CSS::W3C: 0
   WebService::Validator::HTML::W3C: 0
   Wx::Perl::Dialog: 0.02
@@ -42,7 +45,7 @@ build_requires:
 provides:
   Task::Padre::Plugin::Deps:
     file: lib/Task/Padre/Plugin/Deps.pm
-    version: 0.03
+    version: 0.04
 generated_by: Module::Build version 0.3
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
